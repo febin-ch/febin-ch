@@ -1,72 +1,55 @@
-<!-- Minimal Hero Banner with Soft Gradient -->
+<!-- Animated SVG: "Wave" Glow over Contribution Graph -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=rgba(215,215,230,1),rgba(245,245,245,1)&height=140&section=header&fontSize=44&text=Cherry" />
-</p>
-
-<!-- Profile Pic (replace with your own avatar link) -->
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/your-user-id?v=4" alt="profile pic" width="96" style="border-radius:50%;border:2px solid #eaeaea;box-shadow:0 2px 10px #ececec;">
-</p>
-
-<!-- Name & Tagline -->
-<h1 align="center" style="font-weight:400; color:#333; font-size:1.8em;">Hi, I'm Cherry</h1>
-<p align="center" style="font-size:1.1em;">
-  <strong style="font-weight:500;color:#666;">Minimalist · Coder · Quietly Creative</strong>
-</p>
-<p align="center" style="color:#888;margin-top:-0.5em;">
-  Building efficient experiences. Always learning.<br>
-  <span style="font-size:0.75em;">(Less is more.)</span>
-</p>
-<br>
-
-<!-- Socials and View Counter (simple, understated) -->
-<p align="center">
-  <a href="https://instagram.com/febinchx">
-    <img src="https://img.shields.io/badge/Instagram-grey?logo=instagram&logoColor=black&style=flat-square" />
-  </a>
-  <a href="mailto:youremail@example.com">
-    <img src="https://img.shields.io/badge/Email-grey?logo=gmail&logoColor=black&style=flat-square" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=febin-ch&style=flat-square&color=bbbbbb" alt="profile views"/>
-</p>
-
----
-
-### 🛠️ Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,github,figma,linux&theme=light" /><br>
-  <span style="color:#bcbcbc;font-size:0.97em;">Key tools</span>
-</p>
-
----
-
-### 🤍 About
-
-- Focused on simple, strong, sustainable code.
-- Exploring open source.
-- UI/UX with clean lines, no clutter.
-- Anime, coffee, and a side of challenge-solving.
-
----
-
-### ⚪ Stats (Subdued mode)
-
-<p align="center" style="margin-top:0;">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=febin-ch&theme=github-light&hide_border=true&mode=weekly&ring=bbbbbb&fire=bbbbbb&currStreakNum=bbbbbb&sideNums=bbbbbb" width="45%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=febin-ch&layout=compact&theme=default&hide_border=true&card_width=260" width="38%">
-</p>
-
----
-
-### Connect
-
-- Instagram: [@febinchx](https://instagram.com/febinchx)
-- Email: <your@email.com>
-- Always up for quiet creative projects and organic teamwork.
-
----
-
-<p align="center" style="font-size:0.97em;color:#bcbcbc;">
-  <em>“Simplicity is subtlety perfected.”</em>
+  <svg width="600" height="80" viewBox="0 0 600 80">
+    <defs>
+      <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#e0e7ef" />
+        <stop offset="100%" stop-color="#fafbfc" />
+      </linearGradient>
+    </defs>
+    <g>
+      <rect width="600" height="80" rx="20" fill="url(#fade)" />
+      <g>
+        <!-- Create circles in a grid with an animated 'wave' opacity -->
+        <g>
+          <animateTransform attributeName="transform" type="translate" from="0 0" to="0 2" dur="1.5s" repeatCount="indefinite" />
+          <!-- 10 columns x 4 rows -->
+          <circle cx="30" cy="20" r="7">
+            <animate attributeName="opacity" values="0.65;1;0.65" begin="0s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="70" cy="20" r="7">
+            <animate attributeName="opacity" values="0.5;1;0.5" begin="0.15s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="110" cy="20" r="7">
+            <animate attributeName="opacity" values="0.4;1;0.4" begin="0.3s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="150" cy="20" r="7">
+            <animate attributeName="opacity" values="0.55;1;0.55" begin="0.45s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="190" cy="20" r="7">
+            <animate attributeName="opacity" values="0.7;1;0.7" begin="0.6s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="230" cy="20" r="7">
+            <animate attributeName="opacity" values="0.55;1;0.55" begin="0.75s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="270" cy="20" r="7">
+            <animate attributeName="opacity" values="0.4;1;0.4" begin="0.9s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="310" cy="20" r="7">
+            <animate attributeName="opacity" values="0.5;1;0.5" begin="1.05s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="350" cy="20" r="7">
+            <animate attributeName="opacity" values="0.65;1;0.65" begin="1.2s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="390" cy="20" r="7">
+            <animate attributeName="opacity" values="0.8;1;0.8" begin="1.35s" dur="2s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+        <!-- Copy and offset group for multiple rows -->
+        <use href="#row" y="20"/>
+        <use href="#row" y="40"/>
+        <use href="#row" y="60"/>
+      </g>
+    </g>
+  </svg>
 </p>
