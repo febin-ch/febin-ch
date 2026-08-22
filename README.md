@@ -254,22 +254,33 @@ REST APIs with Spring Data JPA and MySQL.
 
 ## `06 / PLAY THE CONTRIBUTION GRID`
 
-### 🐍 Snake mode
+### 🐍 Contribution Snake
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg" alt="GitHub contribution snake animation" width="100%" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg"
+  />
+
+  <img
+    src="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg"
+    alt="GitHub contribution snake"
+    width="100%"
+  />
 </picture>
 
+<br>
+
+<sub>Every contribution becomes part of the game. 🟩 → 🐍 → 🟩</sub>
+
 </div>
-
-<p align="center">
-  <sub>Every contribution becomes part of the game. 🟩 → 🐍 → 🟩</sub>
-</p>
-
 ---
 
 ## `07 / CURRENTLY BUILDING`
