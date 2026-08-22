@@ -252,35 +252,49 @@ REST APIs with Spring Data JPA and MySQL.
 
 ---
 
-## `06 / PLAY THE CONTRIBUTION GRID`
+## `06 / CODE ARCADE`
 
-### 🐍 Contribution Snake
+<p align="center">
+  <img src="./assets/arcade-bar.svg" alt="Code Invaders arcade banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/code-invaders.gif" alt="Animated Code Invaders game" width="100%" />
+</p>
 
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake-dark.svg"
-  />
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  CODE INVADERS                                               │
+│                                                              │
+│  HOSTILES   BUG   404   DEBT   AI   PROD                    │
+│                                                              │
+│       ▾      ▾      ▾      ▾      ▾                          │
+│                                                              │
+│                         ▲                                    │
+│                        /_\                                   │
+│                                                              │
+│  OBJECTIVE: DEFEND THE STACK                                │
+│  SCORE:     KEEP SHIPPING                                   │
+└──────────────────────────────────────────────────────────────┘
+```
 
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg"
-  />
+<details>
+<summary><b>🎮 ARCADE RULES</b></summary>
 
-  <img
-    src="https://raw.githubusercontent.com/febin-ch/febin-ch/output/github-snake.svg"
-    alt="GitHub contribution snake"
-    width="100%"
-  />
-</picture>
+**Enemy types**
 
-<br>
+`BUG` → kill it before it reaches production.  
+`404` → locate the missing route.  
+`DEBT` → refactor before it multiplies.  
+`AI` → understand it before deploying it.  
+`PROD` → the final boss.
 
-<sub>Every contribution becomes part of the game. 🟩 → 🐍 → 🟩</sub>
+The animation is intentionally self-contained in `assets/`, so it does not require GitHub Actions or a generated branch.
 
-</div>
+</details>
+
 ---
 
 ## `07 / CURRENTLY BUILDING`

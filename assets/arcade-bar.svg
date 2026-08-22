@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="70" viewBox="0 0 1200 70">
+<defs><linearGradient id="g"><stop stop-color="#4fe6ff"/><stop offset=".5" stop-color="#aa78ff"/><stop offset="1" stop-color="#50f0a5"/></linearGradient></defs>
+<rect width="1200" height="70" rx="14" fill="#090f1a"/>
+<rect x="1" y="1" width="1198" height="68" rx="13" fill="none" stroke="#263c55"/>
+<text x="28" y="43" font-family="monospace" font-size="20" fill="url(#g)" letter-spacing="3">INSERT COIN  •  CODE INVADERS  •  DEFEND THE STACK</text>
+</svg>
