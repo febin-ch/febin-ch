@@ -1,6 +1,6 @@
 <div align="center">
 
-# `FEBIN-CH`
+# `FEBIN-CHERRY`
 
 ### `FULL-STACK DEVELOPER` · `FRONTEND ENGINEER` · `AI/ML EXPLORER`
 
